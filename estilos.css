@@ -4,6 +4,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    cursor: url(img/cursor.png), auto;
 }
 
 // <uniquifier>: Use a unique and descriptive class name
@@ -18,23 +19,37 @@
 
 html {
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: white;
+    display: flex;
+}
+
+#title {
+    text-transform: uppercase;
+    letter-spacing: 1cap;
+    color: black;
 }
 
 h1 {
-    color:rgb(143, 205, 92);
+    color:black;
     font-size: 80px;
     font-weight: 700;
+}
+
+.botonera {
+    color: black;
+    align-items: end;
+    background-color: rgb(0, 255, 200);
+    flex-direction: row;
 }
 
 h2 {
     font-size: 40px;
     font-weight: 700;
-    color:rgb(143, 205, 92);
-}
-
-h3 {
-    text-transform: uppercase;
-    letter-spacing: 1cap;
+    color:rgb(203, 248, 166);
 }
 
 body {
@@ -51,5 +66,5 @@ a {
 }
 
 a:hover {
-    color:deeppink;
+    color: rgb(203, 248, 166);
 }
