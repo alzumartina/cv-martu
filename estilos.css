@@ -10,10 +10,10 @@
 // <weight>: Use a value from 100 to 900
 
 .raleway {
-     font-family: "Raleway", sans-serif;
-     font-optical-sizing: auto;
-     font-weight: <weight>;
-     font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 html {
