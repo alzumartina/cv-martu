@@ -32,6 +32,11 @@ h2 {
     color:rgb(143, 205, 92);
 }
 
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 1cap;
+}
+
 body {
     width: 1000px;
     font-weight: 400;
