@@ -9,21 +9,25 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 
-.raleway-<uniquifier> {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+.raleway {
+     font-family: "Raleway", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: <weight>;
+     font-style: normal;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
     color:rgb(143, 205, 92);
-    font-size: 40px;
+    font-size: 80px;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 700;
     color:rgb(143, 205, 92);
 }
@@ -31,6 +35,8 @@ h2 {
 body {
     width: 1000px;
     font-weight: 400;
+    font-size: 15px;
+    color: white;
     background-color: black;
     margin: 0px auto;
 }
@@ -41,5 +47,4 @@ a {
 
 a:hover {
     color:deeppink;
-    font-size: 40px;
 }
