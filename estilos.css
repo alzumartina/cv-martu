@@ -52,7 +52,7 @@ h1 {
     align-items: baseline;
 }
 
-.botones ul{
+.botones ul {
     background-color: black;
     list-style: none;
     display: flex;
@@ -133,6 +133,11 @@ a:hover {
 #hablemos li {
     padding-inline: 20px;
     padding-bottom: 20px;
+    justify-content: space-evenly;
+    margin-top: 0%;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 #hablemos h3 {
