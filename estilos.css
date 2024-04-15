@@ -136,6 +136,9 @@ footer {
     display: flex;
     justify-content: center;
     color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
 }
 
 .flecha-arriba {
