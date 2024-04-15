@@ -22,7 +22,7 @@ html {
 
 header {
     background-image: url(img/banner_cv.jpg);
-    background-size: 100vw 100vh; /* cómo puedo hacer para que la imagen no se deforme sino que se vaya mostrando más o menos dependiendo el dispositivo? */
+    background-size: cover; /* cómo puedo hacer para que la imagen no se deforme sino que se vaya mostrando más o menos dependiendo el dispositivo? */
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
