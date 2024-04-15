@@ -4,7 +4,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    cursor: url(img/cursor.png), auto;
+    cursor: url("img/cursor.png"), auto;
 }
 
 // <uniquifier>: Use a unique and descriptive class name
@@ -51,6 +51,10 @@ h1 {
 
 nav li {
     padding: 30px;
+}
+
+.presentacion img {
+    border-radius: 80%;
 }
 
 h2 {
