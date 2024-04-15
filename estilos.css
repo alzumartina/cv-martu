@@ -72,6 +72,7 @@ nav li {
 .sobre-mi {
     display: flex;
     padding-top: 40px;
+    padding-bottom: 40px;
     align-items: flex-end;
 }
 
@@ -119,7 +120,7 @@ a:hover {
 
 #experiencia, #educacion {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #hablemos {
