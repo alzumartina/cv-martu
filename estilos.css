@@ -24,7 +24,6 @@ html {
 
 header {
     background-color: white;
-    display: flex;
 }
 
 #title {
@@ -37,13 +36,24 @@ h1 {
     color:black;
     font-size: 80px;
     font-weight: 700;
+    padding-top: 10%;
 }
 
 .botonera {
-    color: black;
-    align-items: end;
-    background-color: rgb(0, 255, 200);
+    background-color: rgb(255, 0, 234);
+    width: 100%;
+}
+
+.botones ul{
+    background-color: aqua;
+    list-style: none;
+    display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav li {
+    padding: 30px;
 }
 
 h2 {
@@ -63,8 +73,11 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
-    color: rgb(203, 248, 166);
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: 0.2s;
 }
