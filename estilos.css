@@ -34,14 +34,16 @@ header {
     letter-spacing: 1cap;
     color: white;
     padding-top: 0%;
+    margin-top: 0%;
 }
 
 h1 {
     color:white;
     font-size: 80px;
     font-weight: 700;
-    padding-top: 20%;
+    padding-top: 30%;
     padding-bottom: 0%;
+    margin: 0%;
 }
 
 .nombre {
@@ -70,13 +72,14 @@ nav li {
 
 .sobre-mi {
     display: flex;
-    padding-top: 20px;
-    justify-content: space-around;
-    align-items: end;
+    padding-top: 30px;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .info-personal p {
     padding-left: 30px;
+    max-width: 70%;
 }
 
 .info-personal h2 {
