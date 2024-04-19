@@ -66,17 +66,15 @@ nav li {
 
 #sobre-mi {
     display: flex;
-    padding-top: 40px;
-    padding-bottom: 40px;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 90vh;
     background-color: #2A4630;
     gap: 50px;
     border-radius: 50px;
-    border: #CBF8A6;
-    border-color: aliceblue;
-    stroke-width: 2%;
+    border-color: #CBF8A6;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .info-personal {
@@ -87,12 +85,17 @@ nav li {
     border-radius: 50%;
     border-top-left-radius: 0%;
     border-bottom-right-radius: 0%;
+    border-color: #CBF8A6;
+    border-width: 3px;
+    border-style: solid;
 }
 
 h2 {
     font-size: 40px;
     font-weight: 700;
     color:rgb(203, 248, 166);
+    width: 100%;
+    max-width: 400px;
 }
 
 body {
@@ -124,10 +127,30 @@ a:hover {
     align-content: center;
 }
 
+#experiencia ul, #educacion ul {
+    width: 100%;
+    max-width: 600px;
+    list-style: none;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background-color: #711B26;
+    align-items: center;
+    height: 100vh;
+}
+
+aside img:hover {
+    transition: 0.5s ease;
+    border-radius: 20px;
+    filter: brightness(50%);
+}
+
 #hablemos {
-    background-image: url(img/banner_cv.jpg);
+    background-image: url(img/hablemos_cv.jpg);
     background-size: cover;
-    align-items: baseline;
 }
 
 #hablemos ul {
@@ -149,6 +172,7 @@ a:hover {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    margin-top: 0%;
 }
 
 footer {
