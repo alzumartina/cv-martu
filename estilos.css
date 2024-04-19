@@ -64,7 +64,7 @@ nav li {
     padding: 30px;
 }
 
-.sobre-mi {
+#sobre-mi {
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -73,7 +73,7 @@ nav li {
     height: 70vh;
     background-color: #2A4630;
     gap: 50px;
-    border-radius: 7%;
+    border-radius: 50px;
     border: #CBF8A6;
     border-color: aliceblue;
     stroke-width: 2%;
@@ -83,7 +83,7 @@ nav li {
     max-width: 50%;
 }
 
-.sobre-mi img {
+#sobre-mi img {
     border-radius: 50%;
     border-top-left-radius: 0%;
     border-bottom-right-radius: 0%;
