@@ -22,7 +22,7 @@ html {
 
 header {
     background-image: url(img/banner_cv_v2.jpg);
-    background-size: cover; /* cómo puedo hacer para que la imagen no se deforme sino que se vaya mostrando más o menos dependiendo el dispositivo? */
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
@@ -134,29 +134,22 @@ a:hover {
 }
 
 #proyectos {
+    background-color: #711B26;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenedor-tp {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    height: 100vh;
-    align-items: center;
     gap: 40px;
-    background-color: #711B26;
 }
 
 #proyectos img:hover {
     transition: 0.5s ease;
     border-radius: 20px;
     filter: brightness(50%);
-}
-
-#proyectos h2 {
-    width: auto;
-    margin: 0;
-}
-
-.contenedor-tp {
-    width: 100%;
-    max-width: 600px;
 }
 
 #hablemos {
