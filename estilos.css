@@ -138,14 +138,18 @@ aside {
     flex-direction: row;
     gap: 40px;
     background-color: #711B26;
-    align-items: center;
     height: 100vh;
+    align-self: center;
 }
 
 aside img:hover {
     transition: 0.5s ease;
     border-radius: 20px;
     filter: brightness(50%);
+}
+
+aside h2 {
+    width: auto;
 }
 
 #hablemos {
