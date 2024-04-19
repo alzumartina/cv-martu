@@ -147,12 +147,13 @@ a:hover {
     gap: 40px;
 }
 
-.titulo-proyecto {
-    width: 0;
-    justify-items: center;
-    margin: 0%;
-    padding: 0%;
-    max-width: 0%;
+#proyectos li {
+    width: 100%;
+    max-width: 600px;
+}
+
+#proyectos h2 {
+    width: 0%;
 }
 
 #proyectos img:hover {
@@ -200,5 +201,4 @@ footer {
 .flecha-arriba {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
 }
