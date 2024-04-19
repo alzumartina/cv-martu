@@ -135,15 +135,24 @@ a:hover {
 
 #proyectos {
     background-color: #711B26;
+    display: flex;
+    gap: 40px;
     height: 100vh;
-    justify-content: center;
-    align-content: center;
 }
 
-.contenedor-tp {
+#proyectos ul {
+    list-style: none;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     gap: 40px;
+}
+
+.titulo-proyecto {
+    width: 0;
+    justify-items: center;
+    margin: 0%;
+    padding: 0%;
+    max-width: 0%;
 }
 
 #proyectos img:hover {
