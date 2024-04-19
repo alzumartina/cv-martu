@@ -16,12 +16,12 @@ html {
     scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
-    cursor: url("img/cursor_v3.svg"), auto;
+    cursor: url("img/cursor_v4.svg"), auto;
     box-sizing: border-box;
 }
 
 header {
-    background-image: url(img/banner_cv.jpg);
+    background-image: url(img/banner_cv_v2.jpg);
     background-size: cover; /* cómo puedo hacer para que la imagen no se deforme sino que se vaya mostrando más o menos dependiendo el dispositivo? */
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -50,7 +50,6 @@ h1 {
     flex-direction: column;
     justify-content: end;
     padding: 20px;
-    align-items: baseline;
 }
 
 .botones ul {
@@ -74,6 +73,8 @@ nav li {
     padding-top: 40px;
     padding-bottom: 40px;
     align-items: flex-end;
+    height: 50%;
+    background-color: #2A4630;
 }
 
 .info-personal p {
@@ -112,10 +113,10 @@ a {
 }
 
 a:hover {
-    box-shadow: 0px 0px 0px 1px white;
     transition: 0.2s;
     padding: 10px;
-    filter: opacity(50%);
+    border-radius: 10px;
+    box-shadow: #CBF8A6 0 0 0 3px;
 }
 
 #experiencia, #educacion {
@@ -132,12 +133,11 @@ a:hover {
 #hablemos ul {
     display: flex;
     list-style: none;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #hablemos li {
-    padding-inline: 20px;
+    padding-inline: 5%;
     padding-bottom: 20px;
     margin-top: 0%;
     text-transform: uppercase;
@@ -152,10 +152,8 @@ a:hover {
 }
 
 footer {
-    background-color: rgb(203, 248, 166);
     display: flex;
     justify-content: center;
-    color: black;
     font-size: 15px;
     font-weight: 600;
     padding: 20px;
