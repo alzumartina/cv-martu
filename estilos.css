@@ -75,9 +75,12 @@ html {
 
 h1 {
     font-size: 200px;
-    font-weight: 400;
     margin: 0;
     font-family: 'Gt-SuperText';
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    color: #000;
 }
 
 h2 {
