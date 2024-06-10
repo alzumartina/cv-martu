@@ -267,18 +267,31 @@ nav a:hover {
 
 .trabajos {
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 70px 0;
 }
 
 .texto-proyectos {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 h4 {
     font-size: 80px;
     font-weight: 200;
     margin: 0;
+}
+
+.desc-interna {
+    font-size: 58px;
+    font-weight: 200;
+    max-width: 400px;
+}
+
+.numero {
+    font-size: 20px;
+    font-weight: 100;
 }
 
 .trabajos img {
