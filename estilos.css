@@ -181,6 +181,7 @@ nav a:hover {
 
 .slider {
     overflow: hidden;
+    position: relative;
 }
 
 .slider img:hover {
@@ -192,10 +193,11 @@ nav a:hover {
 .flecha-slider {
     display: flex;
     justify-content: flex-end;
-    position: fixed;
-    right: 290px;
+    position: absolute;
+    right: 210px;
     bottom: 200px;
-    z-index: 1000;
+    z-index: 900;
+    transform: translateX(-50%);
 }
 
 #hablemos {
