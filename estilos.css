@@ -251,10 +251,38 @@ nav a:hover {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 200;
+    max-width: 450px;
+    border-color: #fff;
+    border-width: 0 0 0 2px;
+    border-style: solid;
+    padding-left: 20px;
 }
 
 .titulo {
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabajos {
+    display: flex;
+}
+
+.texto-proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h4 {
+    font-size: 80px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.trabajos img {
+    border-radius: 20px;
 }
 
 footer {
