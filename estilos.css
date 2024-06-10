@@ -45,7 +45,7 @@ html {
     box-sizing: border-box;
 }
 
-header {
+#inicio {
     background-image: url(img/banner_cv_v2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,6 +236,25 @@ nav a:hover {
     color: #CBF8A6;
     font-weight: 200;
     font-size: 50px;
+}
+
+/******* PROYECTOS *******/
+.proyectos {
+    font-weight: 300;
+    font-size: 200px;
+    color: #000;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+}
+
+.desc-proyectos {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.titulo {
+    display: flex;
 }
 
 footer {
