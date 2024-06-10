@@ -160,25 +160,23 @@ a:hover {
     box-shadow: #CBF8A6 0 0 0 3px;
 }
 
-#proyectos {
-    height: 100vh;
-}
-
 #proyectos ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    height: 100vh;
+    align-items: center;
 }
 
-.galeria img {
+.slider img {
     border-radius: 25px;
 }
 
-.galeria {
+.slider {
     overflow: hidden;
 }
 
-.galeria img:hover {
+.slider img:hover {
     transition: 0.5s ease;
     border-radius: 25px;
     filter: brightness(50%);
