@@ -87,6 +87,10 @@ h2 {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -275,6 +279,13 @@ nav a:hover {
 .texto-proyectos {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+.tituloyflecha {
+    display: flex;
+    gap: 100px;
+    align-items: center;
 }
 
 h4 {
