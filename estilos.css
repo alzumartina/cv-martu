@@ -220,39 +220,6 @@ nav a:hover {
     background-size: cover;
 }
 
-.hablemos {
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#hablemos ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-;
-    margin: 0;
-    padding: 0;
-    gap: 100px;
-}
-
-#hablemos li {
-    font-size: 15px;
-    font-weight: 200;
-    font-size: 30px;
-}
-
-#hablemos h3 {
-    background-color: #711B26;
-    width: fit-content;
-    padding: 10px 30px 15px;
-    border-radius: 50px;
-    color: #CBF8A6;
-    font-weight: 200;
-    font-size: 50px;
-}
-
 /******* PROYECTOS *******/
 .proyectos {
     font-weight: 300;
