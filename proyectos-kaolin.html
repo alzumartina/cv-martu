@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Portfolio Martina Alzu</title>
+        <link href="estilos.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/svg" href="img/favicon-v1.svg" width="32px"/>
+        <script>
+			function cambiarDisplay(visibilidadNueva){
+				document.getElementById("galeria").style.display = visibilidadNueva
+			}
+			function mostrarGaleria(){
+				cambiarDisplay('flex')
+			}
+			function ocultarGaleria(){
+				cambiarDisplay('none')
+			}
+	</script>
+    </head>
+    <body>
+        <header id="inicio-proyectos">
+            <nav class="botones">
+                    <ul>
+                        <li><a href="index.html" target="_self">Sobre mi</a></li>
+                        <li><a href="proyectos.html" target="_self">Proyectos</a></li>
+                        <li><a href="#hablemos" target="_self">¡Hablemos!</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="flecha-arriba">
+                <a href="#top" id="flecha-volver" class="flechas"><img src="img/flecha-arriba.svg" alt="Volver arriba"
+                width="40px" height="40px"></a>
+            </div>
+            <section class="intro-proyectos-2">
+                <div class="presentacion-proyectos">
+                <h2 class="titulo-proyectos-2">kaolín / branding &amp; merch</h2>
+            </div>
+            </section>
+
+            <section class="desc-proyectos-abierta">
+                <div class="parrafo-principal">
+                    <p class="info-proyectos-2">
+                        Branding para Kaolín, casa de cerámica. Se realizó el diseño de postales, piezas para redes sociales y de difusión en la vía pública, indumentaria y merchandising.
+                    </p>
+                </div>
+                <div class="parrafo-sec">
+                    <p class="info-extra-proyectos-2">
+                        proyecto realizado en 2023, en el marco de la cursada de taller de diseño iii, cátedra esteban ibarra, junto con lucía muñoz y milagros sánchez.
+                    </p>
+                </div>
+            </section>
+
+            <section class="miniaturas">
+                <div class="columnas">
+                    <a href="#foto-1-kao">
+                        <img src="img/kao1-thumbnail.jpg" width="500px" height="700px" alt="Celulares DSGN" onClick="mostrarGaleria()">
+                    </a>
+                    <a href="#foto-2-kao">
+                        <img src="img/kao2-thumbnail.jpg" width="500px" height="300px" alt="Sobre y membrete DSGN" onClick="mostrarGaleria()">
+                    </a>
+                </div>
+                <div class="columnas">
+                    <a href="#foto-3-kao">
+                        <img src="img/kao3-thumbnail.jpg" width="500px" height="300px" alt="Tarjetas personales DSGN" onClick="mostrarGaleria()">
+                    </a>
+                    <a href="#foto-4-kao">
+                        <img src="img/kao4-thumbnail.jpg" width="500px" height="700px" alt="Papeleria DSGN" onClick="mostrarGaleria()">
+                    </a>
+                </div>
+                <div class="columnas">
+                    <a href="#foto-5-kao">
+                        <img src="img/kao5-thumbnail.jpg" width="500px" height="700px" alt="Catalogo DSGN" onClick="mostrarGaleria()">
+                    </a>
+                    <a href="#foto-6-kao">
+                        <img src="img/kao6-thumbnail.jpg" width="500px" height="300px" alt="Twitter DSGN" onClick="mostrarGaleria()">
+                    </a>
+                </div>
+            </section>
+            
+            <!--Comienzo de galería oculta-->
+            <section id="galeria">
+                <div id="fondo-galeria"></div>
+				<ul id="galeria-oculta" class="flex">
+					<li class="fraccion-galeria flex" id="foto-1-kao">
+						<a href="#" class="primer-ultima-flecha"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-2-kao"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+					<li class="fraccion-galeria flex" id="foto-2-kao">
+						<a href="#foto-1-kao"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-3-kao"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+					<li class="fraccion-galeria flex" id="foto-3-kao">
+						<a href="#foto-2-kao"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-4-kao"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+                    <li class="fraccion-galeria flex" id="foto-4-kao">
+						<a href="#foto-3-kao"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-5-kao"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+                    <li class="fraccion-galeria flex" id="foto-5-kao">
+						<a href="#foto-4-kao"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-6-kao"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+                    <li class="fraccion-galeria flex" id="foto-6-kao">
+						<a href="#foto-5-kao"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#" class="primer-ultima-flecha"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+				</ul>
+			</section>
+			<!--Fin de galería oculta-->
+
+            <section class="video">
+                <video src="videos/video-kaolin.mp4" controls width="1600px" height="900px">
+                    <source src="videos/video-kaolin.webm" type="video/webm">
+                    <source src="videos/video-kaolin.ogv" type="video/ogv">
+                </video>
+            </section>
+        </main>
+        <footer>
+            <p>computación iii  |  cátedra wischñevsky © todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>

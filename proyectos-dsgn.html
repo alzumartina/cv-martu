@@ -5,6 +5,17 @@
         <title>Portfolio Martina Alzu</title>
         <link href="estilos.css" rel="stylesheet" type="text/css">
         <link rel="icon" type="image/svg" href="img/favicon-v1.svg" width="32px"/>
+        <script>
+			function cambiarDisplay(visibilidadNueva){
+				document.getElementById("galeria").style.display = visibilidadNueva
+			}
+			function mostrarGaleria(){
+				cambiarDisplay('flex')
+			}
+			function ocultarGaleria(){
+				cambiarDisplay('none')
+			}
+	</script>
     </head>
     <body>
         <header id="inicio-proyectos">
@@ -17,6 +28,93 @@
             </nav>
         </header>
         <main>
+            <div class="flecha-arriba">
+                <a href="#top" id="flecha-volver" class="flechas"><img src="img/flecha-arriba.svg" alt="Volver arriba"
+                width="40px" height="40px"></a>
+            </div>
+            <section class="intro-proyectos">
+                <div class="presentacion-proyectos">
+                <h2 class="titulo-proyectos">dsgn / identidad visual</h2>
+            </div>
+            </section>
+
+            <section class="desc-proyectos-abierta">
+                <div class="parrafo-principal">
+                    <p class="info-proyectos">
+                        Diseño de identidad visual para DSGN by Resta - una plataforma creativa de espacios y objetos para el bien común, un universo de productos diseñados para crear historias.
+                    </p>
+                </div>
+                <div class="parrafo-sec">
+                    <p class="info-extra-proyectos">
+                        En 2021, tuve el privilegio de llevar adelante el proceso de diseñar este proyecto, acompañada de Paola Resta y Marcela Terriles, co-fundadoras de DSGN. Actualmente, esta plataforma se encuentra en re-lanzamiento previsto para 2025.
+                    </p>
+                </div>
+            </section>
+
+            <section class="miniaturas">
+                <div class="columnas">
+                    <a href="#foto-1-dsgn">
+                        <img src="img/dsgn1-thumbnail.jpg" width="500px" height="700px" alt="Celulares DSGN" onClick="mostrarGaleria()">
+                    </a>
+                    <a href="#foto-2-dsgn">
+                        <img src="img/dsgn2-thumbnail.jpg" width="500px" height="300px" alt="Sobre y membrete DSGN" onClick="mostrarGaleria()">
+                    </a>
+                </div>
+                <div class="columnas">
+                    <a href="#foto-3-dsgn">
+                        <img src="img/dsgn3-thumbnail.jpg" width="500px" height="300px" alt="Tarjetas personales DSGN" onClick="mostrarGaleria()">
+                    </a>
+                    <a href="#foto-4-dsgn">
+                        <img src="img/dsgn4-thumbnail.jpg" width="500px" height="700px" alt="Papeleria DSGN" onClick="mostrarGaleria()">
+                    </a>
+                </div>
+                <div class="columnas">
+                    <a href="#foto-5-dsgn">
+                        <img src="img/dsgn5-thumbnail.jpg" width="500px" height="700px" alt="Catalogo DSGN" onClick="mostrarGaleria()">
+                    </a>
+                    <a href="#foto-6-dsgn">
+                        <img src="img/dsgn6-thumbnail.jpg" width="500px" height="300px" alt="Twitter DSGN" onClick="mostrarGaleria()">
+                    </a>
+                </div>
+            </section>
+            
+            <!--Comienzo de galería oculta-->
+            <section id="galeria">
+                <div id="fondo-galeria"></div>
+				<ul id="galeria-oculta" class="flex">
+					<li class="fraccion-galeria flex" id="foto-1-dsgn">
+						<a href="#" class="primer-ultima-flecha"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-2-dsgn"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+					<li class="fraccion-galeria flex" id="foto-2-dsgn">
+						<a href="#foto-1-dsgn"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-3-dsgn"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+					<li class="fraccion-galeria flex" id="foto-3-dsgn">
+						<a href="#foto-2-dsgn"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-4-dsgn"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+                    <li class="fraccion-galeria flex" id="foto-4-dsgn">
+						<a href="#foto-3-dsgn"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-5-dsgn"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+                    <li class="fraccion-galeria flex" id="foto-5-dsgn">
+						<a href="#foto-4-dsgn"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-6-dsgn"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+                    <li class="fraccion-galeria flex" id="foto-6-dsgn">
+						<a href="#foto-5-dsgn"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#" class="primer-ultima-flecha"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+				</ul>
+			</section>
+			<!--Fin de galería oculta-->
 
         </main>
         <footer>

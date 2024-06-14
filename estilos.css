@@ -74,7 +74,7 @@ html {
 }
 
 h1 {
-    font-size: 200px;
+    font-size: 160px;
     margin: 0;
     font-family: 'Gt-SuperText';
     font-style: italic;
@@ -84,7 +84,7 @@ h1 {
 }
 
 h2 {
-    font-size: 200px;
+    font-size: 130px;
     font-weight: 100;
     color: #fff;
     margin: 0;
@@ -98,12 +98,13 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .nombre {
     display: flex;
-    gap: 50px;
-    line-height: 50px;
+    gap: 40px;
+    line-height: 60px;
 }
 
 .botones ul {
@@ -144,6 +145,7 @@ nav li {
     align-items: center;
     height: 100vh;
     background-color: #2A4630;
+    cursor: url("img/estrella.png"), auto;
 }
 
 .info-personal {
@@ -167,6 +169,11 @@ a {
     color: white;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 nav a:hover {
     transition: 0.2s;
     padding: 10px;
@@ -174,12 +181,18 @@ nav a:hover {
     box-shadow: #CBF8A6 0 0 0 3px;
 }
 
+#proyectos {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 #proyectos ul {
     list-style: none;
     display: flex;
     gap: 20px;
-    height: 100vh;
     align-items: center;
+    margin: 0;
 }
 
 .slider img {
@@ -187,8 +200,10 @@ nav a:hover {
 }
 
 .slider {
-    overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .slider img:hover {
@@ -198,13 +213,10 @@ nav a:hover {
 }
 
 .flecha-slider {
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    right: 210px;
-    bottom: 200px;
+    position: relative;
     z-index: 900;
-    transform: translateX(-50%);
+    align-self: flex-end;
+    translate: -60px -160px;
 }
 
 #hablemos {
@@ -263,6 +275,7 @@ nav a:hover {
     border-width: 0 0 0 2px;
     border-style: solid;
     padding-left: 20px;
+    height: 135px;
 }
 
 .titulo {
@@ -314,8 +327,257 @@ h4 {
 
 .trabajos img:hover {
     transition: 0.5s ease;
-    border-radius: 25px;
     filter: brightness(50%);
+}
+
+/******* PROYECTO DSGN *******/
+
+.intro-proyectos {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/dsgn-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.presentacion-proyectos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.presentacion-proyectos img {
+    border-radius: 20px;
+}
+
+.titulo-proyectos {
+    font-size: 100px;
+    font-weight: 200;
+    line-height: 90px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #CBF8A6;
+    max-width: 550px;
+}
+
+.desc-proyectos-abierta {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.parrafo-principal{
+    display: flex;
+    padding: 0 150px;
+}
+
+.parrafo-sec {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 150px;
+}
+
+.info-proyectos {
+    font-size: 60px;
+    color: #CBF8A6;
+    font-weight: 200;
+    max-width: 1100px;
+    line-height: 55px;
+}
+
+.info-extra-proyectos {
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    max-width: 450px;
+    color: #CBF8A6;
+}
+
+/******* GALERIA DSGN *******/
+.miniaturas {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.miniaturas img {
+    border-radius: 15px;
+}
+
+.columnas {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.columnas img:hover {
+    transition: 0.5s ease;
+    filter: brightness(50%);
+}
+
+#galeria {
+	display: none;
+	width: 100%;
+	justify-content: center;
+    align-items: center;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+#galeria-oculta {
+	display: flex;
+	width: 100%;
+	max-width: 1450px;
+	overflow: hidden;
+	z-index: 20;
+}
+
+.fraccion-galeria {
+	display: flex;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 100%;
+	min-width: 1450px;
+	height: 90vh;
+	justify-content: space-between;
+}
+
+.primer-ultima-flecha {
+	visibility: hidden;
+}
+
+.close {
+	position: absolute;
+	top: 10px;
+	right: 2%;
+}
+
+.flecha:hover {
+    filter: brightness(50%)
+}
+
+.img {
+    margin: 0;
+    padding: 0;
+}
+
+#fondo-galeria {
+	background-color: black;
+	opacity: 0.9;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 0;
+}
+
+/*------IDS CON LAS IMÁGENES DE LA GALERÍA DSGN-------*/
+
+#foto-1-dsgn {
+    background-image: url(img/dsgn1.jpg);
+}
+
+#foto-2-dsgn {
+    background-image: url(img/dsgn2.jpg);
+}
+
+#foto-3-dsgn {
+    background-image: url(img/dsgn3.jpg);
+}
+
+#foto-4-dsgn {
+    background-image: url(img/dsgn4.jpg);
+}
+
+#foto-5-dsgn {
+    background-image: url(img/dsgn5.jpg);
+}
+
+#foto-6-dsgn {
+    background-image: url(img/dsgn6.jpg);
+}
+
+/******* PROYECTO KAOLIN *******/
+
+.titulo-proyectos-2 {
+    font-size: 100px;
+    font-weight: 200;
+    line-height: 90px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #EB010E;
+    max-width: 550px;
+}
+
+.info-proyectos-2 {
+    font-size: 60px;
+    color: #EB010E;
+    font-weight: 200;
+    max-width: 1100px;
+    line-height: 55px;
+}
+
+.info-extra-proyectos-2 {
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    max-width: 450px;
+    color: #EB010E;
+}
+
+/*------IDS CON LAS IMÁGENES DE LA GALERÍA KAOLÍN-------*/
+
+#foto-1-kao {
+    background-image: url(img/kao1.jpg);
+}
+
+#foto-2-kao {
+    background-image: url(img/kao2.jpg);
+}
+
+#foto-3-kao {
+    background-image: url(img/kao3.jpg);
+}
+
+#foto-4-kao {
+    background-image: url(img/kao4.jpg);
+}
+
+#foto-5-kao {
+    background-image: url(img/kao5.jpg);
+}
+
+#foto-6-kao {
+    background-image: url(img/kao6.jpg);
+}
+
+.intro-proyectos-2 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/kaolin-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    border-radius: 15px;
 }
 
 footer {
