@@ -483,27 +483,27 @@ h4 {
 /*------IDS CON LAS IMÁGENES DE LA GALERÍA DSGN-------*/
 
 #foto-1-dsgn {
-    background-image: url(img/dsgn1.jpg);
+    background-image: url(img/galerias/dsgn1.jpg);
 }
 
 #foto-2-dsgn {
-    background-image: url(img/dsgn2.jpg);
+    background-image: url(img/galerias/dsgn2.jpg);
 }
 
 #foto-3-dsgn {
-    background-image: url(img/dsgn3.jpg);
+    background-image: url(img/galerias/dsgn3.jpg);
 }
 
 #foto-4-dsgn {
-    background-image: url(img/dsgn4.jpg);
+    background-image: url(img/galerias/dsgn4.jpg);
 }
 
 #foto-5-dsgn {
-    background-image: url(img/dsgn5.jpg);
+    background-image: url(img/galerias/dsgn5.jpg);
 }
 
 #foto-6-dsgn {
-    background-image: url(img/dsgn6.jpg);
+    background-image: url(img/galerias/dsgn6.jpg);
 }
 
 /******* PROYECTO KAOLIN *******/
@@ -537,27 +537,27 @@ h4 {
 /*------IDS CON LAS IMÁGENES DE LA GALERÍA KAOLÍN-------*/
 
 #foto-1-kao {
-    background-image: url(img/kao1.jpg);
+    background-image: url(img/galerias/kao1.jpg);
 }
 
 #foto-2-kao {
-    background-image: url(img/kao2.jpg);
+    background-image: url(img/galerias/kao2.jpg);
 }
 
 #foto-3-kao {
-    background-image: url(img/kao3.jpg);
+    background-image: url(img/galerias/kao3.jpg);
 }
 
 #foto-4-kao {
-    background-image: url(img/kao4.jpg);
+    background-image: url(img/galerias/kao4.jpg);
 }
 
 #foto-5-kao {
-    background-image: url(img/kao5.jpg);
+    background-image: url(img/galerias/kao5.jpg);
 }
 
 #foto-6-kao {
-    background-image: url(img/kao6.jpg);
+    background-image: url(img/galerias/kao6.jpg);
 }
 
 .intro-proyectos-2 {
