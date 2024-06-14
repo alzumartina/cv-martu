@@ -539,6 +539,68 @@ video {
     border-radius: 15px;
 }
 
+/*------IDS CON LAS IMÁGENES DE LA GALERÍA GUSTO-------*/
+
+#foto-1-gusto {
+    background-image: url(img/galerias/gusto1.jpg);
+}
+
+#foto-2-gusto {
+    background-image: url(img/galerias/gusto2.jpg);
+}
+
+#foto-3-gusto {
+    background-image: url(img/galerias/gusto3.jpg);
+}
+
+#foto-4-gusto {
+    background-image: url(img/galerias/gusto4.jpg);
+}
+
+#foto-5-gusto {
+    background-image: url(img/galerias/gusto5.jpg);
+}
+
+#foto-6-gusto {
+    background-image: url(img/galerias/gusto6.jpg);
+}
+
+.intro-proyectos-3 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/gusto-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo-proyectos-3 {
+    font-size: 100px;
+    font-weight: 200;
+    line-height: 90px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #F8AB07;
+    max-width: 700px;
+}
+
+.info-proyectos-3 {
+    font-size: 60px;
+    color: #F8AB07;
+    font-weight: 200;
+    max-width: 1100px;
+    line-height: 55px;
+}
+
+.info-extra-proyectos-3 {
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    max-width: 450px;
+    color: #F8AB07;
+}
 
 /*------HABLEMOS-------*/
 

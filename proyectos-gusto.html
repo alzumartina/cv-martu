@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Portfolio Martina Alzu</title>
+        <link href="estilos.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/svg" href="img/favicon-v1.svg" width="32px"/>
+        <script>
+			function cambiarDisplay(visibilidadNueva){
+				document.getElementById("galeria").style.display = visibilidadNueva
+			}
+			function mostrarGaleria(){
+				cambiarDisplay('flex')
+			}
+			function ocultarGaleria(){
+				cambiarDisplay('none')
+			}
+	</script>
+    </head>
+    <body>
+        <header id="inicio-proyectos">
+            <nav class="botones">
+                <ul>
+                    <li><a href="index.html" target="_self">Sobre mi</a></li>
+                    <li><a href="proyectos.html" target="_self">Proyectos</a></li>
+                    <li><a href="hablemos.html" target="_self">¡Hablemos!</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="flecha-arriba">
+                <a href="#top" id="flecha-volver" class="flechas"><img src="img/flecha-arriba.svg" alt="Volver arriba"
+                width="40px" height="40px"></a>
+            </div>
+            <section class="intro-proyectos-3">
+                <div class="presentacion-proyectos">
+                <h2 class="titulo-proyectos-3">gusto / lettering &amp; branding</h2>
+            </div>
+            </section>
+
+            <section class="desc-proyectos-abierta">
+                <div class="parrafo-principal">
+                    <p class="info-proyectos-3">
+                        Diseño de lettering para Gusto, un festival que celebra estos sistemas gráficos. También se exploró su convivencia con la tipografía en distintos soportes y contextos.
+                    </p>
+                </div>
+                <div class="parrafo-sec">
+                    <p class="info-extra-proyectos-3">
+                        proyecto realizado en 2022, en el marco de la cursada de espacio tipográfico iii, cátedra angelina sánchez, como trabajo integrador de la misma. se realizaron 3 variables del lettering junto con un patrón y piezas de merchandising y papelería.
+                    </p>
+                </div>
+            </section>
+
+            <section class="miniaturas">
+                <div class="columnas">
+                    <a href="#foto-1-gusto">
+                        <img src="img/galerias/gusto1-thumbnail.jpg" width="500px" height="700px" alt="Primera hoja brandbook" onClick="mostrarGaleria()">
+                    </a>
+                    <a href="#foto-2-gusto">
+                        <img src="img/galerias/gusto2-thumbnail.jpg" width="500px" height="300px" alt="Posters Gusto" onClick="mostrarGaleria()">
+                    </a>
+                </div>
+                <div class="columnas">
+                    <a href="#foto-3-gusto">
+                        <img src="img/galerias/gusto3-thumbnail.jpg" width="500px" height="300px" alt="Aulas UNLa Gusto" onClick="mostrarGaleria()">
+                    </a>
+                    <a href="#foto-4-gusto">
+                        <img src="img/galerias/gusto4-thumbnail.jpg" width="500px" height="700px" alt="Pulsera Gusto" onClick="mostrarGaleria()">
+                    </a>
+                </div>
+                <div class="columnas">
+                    <a href="#foto-5-gusto">
+                        <img src="img/galerias/gusto5-thumbnail.jpg" width="500px" height="700px" alt="Vista gral brandbook" onClick="mostrarGaleria()">
+                    </a>
+                    <a href="#foto-6-gusto">
+                        <img src="img/galerias/gusto6-thumbnail.jpg" width="500px" height="300px" alt="Buzos Gusto" onClick="mostrarGaleria()">
+                    </a>
+                </div>
+            </section>
+            
+            <!--Comienzo de galería oculta-->
+            <section id="galeria">
+                <div id="fondo-galeria"></div>
+				<ul id="galeria-oculta" class="flex">
+					<li class="fraccion-galeria flex" id="foto-1-gusto">
+						<a href="#" class="primer-ultima-flecha"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-2-gusto"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+					<li class="fraccion-galeria flex" id="foto-2-gusto">
+						<a href="#foto-1-gusto"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-3-gusto"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+					<li class="fraccion-galeria flex" id="foto-3-gusto">
+						<a href="#foto-2-gusto"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-4-gusto"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+                    <li class="fraccion-galeria flex" id="foto-4-gusto">
+						<a href="#foto-3-gusto"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-5-gusto"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+                    <li class="fraccion-galeria flex" id="foto-5-gusto">
+						<a href="#foto-4-gusto"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#foto-6-gusto"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+                    <li class="fraccion-galeria flex" id="foto-6-gusto">
+						<a href="#foto-5-gusto"><img class="flecha" src="img/flecha-izquierda.svg" width="40px" height="40px" alt="Anterior"></a>
+						<img class="close" src="img/cruz.svg" alt="Cerrar" width="40px" height="40px" onClick="ocultarGaleria()">
+						<a href="#" class="primer-ultima-flecha"><img class="flecha" src="img/flecha-derecha.svg" width="40px" height="40px" alt="Siguiente"></a>
+					</li>
+				</ul>
+			</section>
+			<!--Fin de galería oculta-->
+        </main>
+        <footer>
+            <p>computación iii  |  cátedra wischñevsky © todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>
